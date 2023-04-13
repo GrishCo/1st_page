@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <style>
+      .red-brd {
+        border: 1px solid red;
+      }
+
+      .header {
+        border-bottom: 1px solid grey;
+      }
+
+      .card {
+        background-color: #eee;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      .color {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="header color">
+      <h1>Site</h1>
+    </header>
+
+    <nav id="navigation">
+      <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <section>
+      <article id="block1" class="card red-brd">
+        <h3>Block 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+          voluptatibus dolores fugit beatae aliquid omnis, odio eveniet
+          voluptate rem odit?
+        </p>
+      </article>
+
+      <article id="block2" class="card red-brd">
+        <h3>Block 2</h3>
+        <p>
+          <span class="color">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </span>
+          Dignissimos voluptatibus dolores fugit beatae aliquid omnis, odio
+          eveniet voluptate rem odit?
+        </p>
+      </article>
+
+      <!-- <div id="block3" class="card red-brd">
+				<h3>Block 3</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.<div class="color">Dignissimos
+					voluptatibus dolores fugit beatae aliquid omnis,</div> odio eveniet voluptate
+					rem odit?
+				</p>
+    	</div> -->
+
+      <!-- так как блочные элементы нельзя вставлять в строчные, то <div> не может находиться в <p>!!! -->
+    </section>
+
+    <hr />
+
+    <footer id="footer">
+      <h4>Contact me</h4>
+      <ul>
+        <li>
+          <a href="#">Instagram</a>
+        </li>
+        <li>
+          <a href="#">Telegram</a>
+        </li>
+        <li>
+          <a href="#">Facebook</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
